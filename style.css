@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@700&family=Poppins:wght@300;400;500&family=Roboto:wght@500;700&display=swap');
+
+:root {
+    --primary-color: #F5F5F5;
+    --secundary-color: #FD7401;
+    --white: #FFF;
+    --text-gray-color: #555555; 
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    height: 100vh;
+    display: grid;
+    background-color: var(--primary-color);
+    grid-template-columns: 3fr 6fr;
+}
+
+#left-side
+{
+    background-color: var(--white);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#left-side p
+{
+    color: var(--text-gray-color);
+    font-weight: 600;
+}
+
+#left-side #form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#left-side #form p
+{
+    color: var(--text-gray-color);
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+#left-side #form #bt-login
+{
+    padding: 0.75em;
+    background-color: var(--secundary-color);
+    border-radius: 6px;
+    color: var(--white);
+    font-weight: 500;
+    border: none;
+    margin: 25px 0;
+    margin-top: 30px;
+}
+
+#left-side #form #bt-login:hover
+{
+    background-color: #c25700;
+    transition: 180ms ease-in-out;
+}
+
+
+#left-side #form #bt-signup
+{
+    margin: 25px 0;
+    padding: 0.75em;
+    background-color: var(--white);
+    font-weight: 500;
+    color: var(--secundary-color);
+    border: var(--secundary-color) solid;
+    border-radius: 6px;
+}
+
+#left-side #form #bt-signup:hover
+{
+    background-color: #c25700;
+    color: var(--white);
+    border: #c25700 solid;
+    transition: 300ms ease-in-out;
+}
+
+#left-side #form input
+{
+    width: 100%;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+    outline: none;
+    padding: 0.75em;
+    transition: 180ms box-shadow ease-in-out;
+    padding-left:50px;
+}
+
+#left-side #form #second-input
+{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#left-side #form #second-input a
+{
+    color: #1E2772;
+    font-size: small;
+}
+
+#left-side #form #email-icon
+{
+    background-image: url(/login-component/images//Group\ 4.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}   
+
+#left-side #form #pass-icon
+{
+    background-image: url(/login-component/images/Group\ 20.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#left-side #form input:focus
+{
+    box-shadow: 0 0 0 3px rgba(95, 95, 255, 0.438);
+}
+
+#right-side
+{
+    background-color: var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
