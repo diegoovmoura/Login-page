@@ -117,14 +117,14 @@ body
 
 #left-side #form #email-icon
 {
-    background-image: url(/images//Group\ 4.svg);
+    background-image: url(/Login-page/images//Group\ 4.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }   
 
 #left-side #form #pass-icon
 {
-    background-image: url(/images/Group\ 20.svg);
+    background-image: url(/Login-page/images/Group\ 20.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
